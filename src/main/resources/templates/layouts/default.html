@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div class="container">
+    <div th:include="fragments/footer :: footer"></div>
+    <div layout:fragment="content"></div>
+    <div th:replace="fragments/footer :: footer"></div>
+</div>
+</body>
+</html>
