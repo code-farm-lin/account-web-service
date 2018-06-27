@@ -11,32 +11,22 @@ public class DefaultController {
         return "/home";
     }
 
-//
-//    @GetMapping("/accounts")
-//    public String home() {
-//        return "/accounts";
-//    }
 
         @GetMapping("/login")
     public String login() {
         return "/login";
     }
 
-//    @GetMapping("/admin")
-//    public String admin() {
-//        return "/admin";
-//    }
-//
-//    @GetMapping("/user")
-//    public String user() {
-//        return "/user";
-//    }
-//
-//    @GetMapping("/about")
-//    public String about() {
-//        return "/about";
-//    }
-//
+
+    @GetMapping("/about")
+    public String about() {
+        return "/about";
+    }
+
+    @GetMapping("/contact")
+    public String contact() {
+        return "/contact";
+    }
 
 //
 //    @GetMapping("/403")
